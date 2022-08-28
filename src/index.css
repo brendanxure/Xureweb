@@ -1,13 +1,119 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Luckiest+Guy&family=Poppins:wght@300;400;500;600&display=swap');
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  background-image: url(./Images/bg-texture.png);
+  background-color: #1f1f38;
+  font-family: 'Poppins', sans-serif;;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.7;
+}
+:root {
+  --transition: all 400ms ease;
+}
+.Hello {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+.Headerlinkdiv {
+  display: flex;
+  gap: 1rem;
+ justify-content: center;
+ margin-top: 2.5rem;
+}
+.Headerlink {
+  border: 1px solid rgba(77, 181, 255, 0.4);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  color: rgba(77, 181, 255, 0.4);
+  transition: var(--transition);
+}
+.Headerlink2 {
+  border: none;
+  background-color: #4db5ff;
+  border: 1px solid #4db5ff;
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  color: #1f1f38;
+  transition: var(--transition);
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+.Headericons {
+  position: absolute;
+  left: 200px;
+  bottom: 150px;
+  transform: scale(1.5,1);
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem;
+}
+.Scrolldown {
+  position: absolute;
+  right: 200px;
+  bottom: 250px;
+  transform: rotate(90deg);
+  color: #4db5ff;
+}
+.me {
+  width: 70%;
+  background: linear-gradient( #4db5ff, #1f1f38);
+  padding: 6rem 1rem 0 1rem;
+  border-radius: 20rem 20rem 0 0;
+  transform: scale(0.95, 0.9);
+  margin-top: 0.5rem;
+}
+.Headerimgdiv {
+  display: flex;
+  justify-content: center;
+}
+a {
+  transition: var(--transition);
+}
+a:hover {
+  color: #ffffff;
+}
+.Nav {
+  transform: scale(1.5,1);
+  display: flex;
+  gap: 1.3rem;
+  position: fixed;
+  bottom: 60px;
+  left: 747px;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.4);
+  width: max-content;
+  padding: 0.9rem 1.31rem;
+  border-radius: 2rem;
+}
+.Nav > a {
+  border-radius: 50%;
+  padding: 0.4rem;
+  display: flex;
+  justify-content: center;
+}
+.Nav > a:hover {
+  background-color: #1f1f38;
+}
+.hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }

@@ -38,7 +38,7 @@ const About = () => {
                 <p>Lorem ipsum dolor sit amet. Et velit iure aut laboriosam error et accusantium veritatis. Ut aliquid obcaecati deleniti nihil hic atque quia et quidem deleniti vel possimus minima. Quibusdam dolor sit provident optio eos quos itaque.
                 </p>
                 <section className='Aboutlink3'>
-                <a className='Headerlink2' href=''>Let's talk</a>
+                <a className='Headerlink2' href='#Contact'>Let's talk</a>
                 </section>
             </div>
         </div>

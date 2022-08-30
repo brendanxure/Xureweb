@@ -14,7 +14,7 @@ const Header = () => {
         </div>
         <div className='Headerlinkdiv'>
             <a className='Headerlink' href={CV} download >Download CV</a>
-            <a className='Headerlink2' href=''>Let's talk</a>
+            <a className='Headerlink2' href='#Contact'>Let's talk</a>
         </div>
         <div className="Headerimgdiv">
             <div className='Headericons'>
@@ -22,7 +22,7 @@ const Header = () => {
                 <a style={{color : '#4db5ff'}}href='https://github.com' target='_blank'><FaGithub /></a>
                 <a style={{color : '#4db5ff'}}href='https://dribbble.com' target='_blank'><AiOutlineDribbble /></a>
             </div>
-            <a href='#Portfolio' className='Scrolldown'>Scroll Down</a>
+            <a href='#Testimonial' className='Scrolldown'>Scroll Down</a>
             <img className='me' src={me}></img>
         </div>
     </div>

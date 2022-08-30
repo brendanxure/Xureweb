@@ -60,7 +60,7 @@ const Portfolio = () => {
                     </image>  
                     <h3>{eachport.body}</h3>
                     <section>
-                        <a href={eachport.link} className='Headerlink' >GitHub</a>
+                        <a href="https://github.com" className='Headerlink' target="_blank" >GitHub</a>
                         <a href={eachport.link} className='Headerlink2' >Live Demo</a>
                     </section>
                 </div>

@@ -61,7 +61,7 @@ const Portfolio = () => {
                     <h3>{eachport.body}</h3>
                     <section>
                         <a href="https://github.com" className='Headerlink' target="_blank" >GitHub</a>
-                        <a href={eachport.link} className='Headerlink2' >Live Demo</a>
+                        <a href="https://www.figma.com/community/" target='_blank' className='Headerlink2' >Live Demo</a>
                     </section>
                 </div>
                 )}

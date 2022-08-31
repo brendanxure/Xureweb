@@ -26,6 +26,14 @@ function Testimonial() {
         {   id:2,
             image: avatar1,
             name: "Kim Yushin"
+        },
+        {   id:3,
+            image: avatar3,
+            name: "High Chief Yeon ta bal"
+        },
+        {   id:4,
+            image: avatar4,
+            name: "So seo no"
         }
     ])
   return (
@@ -35,18 +43,17 @@ function Testimonial() {
             <h1>Testimonials</h1>           
         </div>
         
-        {/* <Swiper navigation={true} modules={[Navigation]} className="Card">
-       
+        <Swiper navigation={true} modules={[Navigation]} className="Card">
             {slide.map(eachone=> 
-            <SwiperSlide className='Card1'>
-                <div className='testing'>
+            <SwiperSlide>
+                <div className='Card1'>
                 <img className='Avatar2' src={eachone.image}></img>
                 <h3>{eachone.name}</h3>
-                <p>Lorem ipsum dolor sit amet. Et velit iure aut laboriosam error et accusantium veritatis. Ut aliquid obcaecati deleniti nihil hic atque quia et quidem deleniti vel possimus minima. Quibusdam dolor sit provident optio eos quos itaque.</p>
+                <p>Lorem ipsum dolor sit amet. Et velit iure aut laboriosam error et accusantium veritatis Ut aliquid obcaecati deleniti nihil hic atque quia et quidem deleniti vel possimus minima. Quibusdam dolor sit provident optio eos quos itaque..</p>
                 </div>
-            </SwiperSlide>
+            </SwiperSlide>    
             )}
-        </Swiper> */}
+        </Swiper>
     </div> 
   )
 }

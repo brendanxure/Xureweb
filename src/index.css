@@ -544,3 +544,13 @@ a:hover {
   padding: 0.5rem 0.7rem 0.3rem 0.7rem;
   border-radius: 0.5rem;
 }
+@media screen and (max-width: 800px) {
+  .Footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .Summary {
+    display: flex;
+    flex-direction: column;
+  }
+} 

@@ -47,7 +47,7 @@ function Testimonial() {
             {slide.map(eachone=> 
             <SwiperSlide>
                 <div className='Card1'>
-                <img className='Avatar2' src={eachone.image}></img>
+                <img className='Avatar2' alt='avatar' src={eachone.image}></img>
                 <h3>{eachone.name}</h3>
                 <p>Lorem ipsum dolor sit amet. Et velit iure aut laboriosam error et accusantium veritatis Ut aliquid obcaecati deleniti nihil hic atque quia et quidem deleniti vel possimus minima. Quibusdam dolor sit provident optio eos quos itaque..</p>
                 </div>

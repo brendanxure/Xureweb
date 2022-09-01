@@ -56,12 +56,12 @@ const Portfolio = () => {
                 {port.map(eachport=>
                 <div className='Eachport'>
                     <image>
-                        <img src={eachport.picture} />
+                        <img alt='' src={eachport.picture} />
                     </image>  
                     <h3>{eachport.body}</h3>
                     <section>
-                        <a href="https://github.com" className='Headerlink' target="_blank" >GitHub</a>
-                        <a href="https://www.figma.com/community/" target='_blank' className='Headerlink2' >Live Demo</a>
+                        <a href="https://github.com" className='Headerlink' target="_blank" rel="noreferrer">GitHub</a>
+                        <a href="https://www.figma.com/community/" target='_blank' rel="noreferrer" className='Headerlink2' >Live Demo</a>
                     </section>
                 </div>
                 )}

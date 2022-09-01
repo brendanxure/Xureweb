@@ -31,19 +31,19 @@ const Contact = () => {
                     <MdOutlineEmail style={{width: "25px", height: "25px", marginBottom: "1rem" }}/>
                     <h3>Email</h3>
                     <p>Brendanxure@outlook.com</p>
-                    <a href='mailto:brendanxure@outlook.com' target='_blank'>Send a message</a>
+                    <a href='mailto:brendanxure@outlook.com' target='_blank' rel="noreferrer" >Send a message</a>
                 </article>
                 <article>
                     <TbBrandMessenger style={{width: "25px", height: "25px", marginBottom: "1rem" }}/>
                     <h3>Messenger</h3>
                     <p>Brendan Xure</p>
-                    <a href='https://m.me/bukkyobilo' target='_blank'>Send a message</a>
+                    <a href='https://m.me/bukkyobilo' target='_blank' rel='noreferrer'>Send a message</a>
                 </article>
                 <article>
                     <BsWhatsapp style={{width: "23px", height: "23px", marginBottom: "1rem" }} />
                     <h3>WhatsApp</h3>
                     <p>+234 817 266 5800</p>
-                    <a href='https://wa.me/+2348172665800?text=Hi' target='_blank'>Send a message</a>
+                    <a href='https://wa.me/+2348172665800?text=Hi' target='_blank' rel="noreferrer">Send a message</a>
                 </article>
             </div>
             <form className='Contactform' ref={form} onSubmit={sendEmail}>

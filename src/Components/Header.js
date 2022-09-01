@@ -18,12 +18,12 @@ const Header = () => {
         </div>
         <div className="Headerimgdiv">
             <div className='Headericons'>
-                <a style={{color : '#4db5ff'}} href='https://linkedin.com' target='_blank' ><BsLinkedin/></a>
-                <a style={{color : '#4db5ff'}}href='https://github.com' target='_blank'><FaGithub /></a>
-                <a style={{color : '#4db5ff'}}href='https://dribbble.com' target='_blank'><AiOutlineDribbble /></a>
+                <a style={{color : '#4db5ff'}} href='https://linkedin.com' target='_blank' rel="noreferrer"><BsLinkedin/></a>
+                <a style={{color : '#4db5ff'}}href='https://github.com' target='_blank' rel="noreferrer"><FaGithub /></a>
+                <a style={{color : '#4db5ff'}}href='https://dribbble.com' target='_blank' rel="noreferrer"><AiOutlineDribbble /></a>
             </div>
             <a href='#Testimonial' className='Scrolldown'>Scroll Down</a>
-            <img className='me' src={me}></img>
+            <img className='me' alt='' src={me}></img>
         </div>
     </div>
   )

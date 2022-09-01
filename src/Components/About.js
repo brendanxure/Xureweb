@@ -14,7 +14,7 @@ const About = () => {
         <div className='Aboutmaindiv'>
             <div className='Aboutleft'>
             <div className='Aboutimg'>
-                <img src={meabout}></img>
+                <img alt='' src={meabout}></img>
             </div>
             </div>
             <div className='Aboutright'>

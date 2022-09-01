@@ -30,7 +30,7 @@ const Contact = () => {
                 <article>
                     <MdOutlineEmail style={{width: "25px", height: "25px", marginBottom: "1rem" }}/>
                     <h3>Email</h3>
-                    <p>Support@brendanxure.com</p>
+                    <p>Brendanxure@outlook.com</p>
                     <a href='mailto:brendanxure@outlook.com' target='_blank'>Send a message</a>
                 </article>
                 <article>
